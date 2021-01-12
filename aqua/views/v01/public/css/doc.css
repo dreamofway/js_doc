@@ -1,0 +1,87 @@
+body {font-size:13px;}
+#wrap {background:#aaa;}
+section {margin:0px auto; padding:1.5cm; width:21cm; min-height:29.7cm; background:#fff;}
+.no-print-page {height:20px;}
+
+.record_table {}
+.table {width:100%;}
+.table + .table {margin-top:5px;}
+.table tr th,
+.table tr td {border:1px solid #000; text-align:center;}
+.table tr td.text-left {text-align:left; padding:0 10px;}
+
+.inner_table {width:100%;}
+.inner_table tr :not(th) {border:0;}
+.inner_table tr :not(td) {border:0;}
+
+.inner_table tr + tr {border-top:1px solid #000;}
+.inner_table tr th + th,
+.inner_table tr td + td{border-left:1px solid #000;}
+
+.info {background:#ddd;}
+.font-sm {font-size:10px;}
+.font-md {font-size:14px;}
+
+.cell_wrap {display:table; width:100%; table-layout:fixed;}
+.cell {display:table-cell;}
+.cell + .cell {border-left:1px solid #000;}
+.cell > div + div {border-top:1px solid #000;}
+.cell_row {display:table-row;}
+.cell_td {display:table-cell; vertical-align:top;}
+
+.doc_title {font-size:32px; text-align:center; margin-bottom:20px;}
+.table.instruction tr th,
+.table.instruction tr td{height:28px;}
+.table.manufacture tr th,
+.table.manufacture tr td{height:24px;}
+.table.weighing tr th,
+.table.weighing tr td{height:30px;}
+.table.extraction tr th,
+.table.extraction tr td{height:20px;}
+.table.sterilized1 tr th,
+.table.sterilized1 tr td{height:26px;}
+.table.sterilized2 tr th,
+.table.sterilized2 tr td{height:20px;}
+.table.filling tr th,
+.table.filling tr td{height:20px;}
+.table.packing tr th,
+.table.packing tr td{height:30px;}
+.table.packing {margin-bottom:20px;}
+.table.ccp1 tr td{height:40px;}
+.table.ccp2 tr td{height:35px;}
+.table.steaming tr td{height:24px;}
+.table.process tr td{height:38px;}
+.table.test_inspection tr th,
+.table.test_inspection tr td {height:50px;}
+.table.shipment tr th,
+.table.shipment tr td {height:40px;}
+.table.raw_material tr th,
+.table.raw_material tr td {height:50px;}
+.table.sub_material tr th,
+.table.sub_material tr td {height:50px;}
+
+.table_div {display:table; width:100%;}
+.c_div {display:table-cell; vertical-align:top;}
+
+
+@media print {
+	section {
+		page-break-before:auto;
+	}
+	.no-print-page {
+		display:none;
+	}
+}
+@page {
+	size: A4;
+	margin:0;
+}
+@media print {
+
+	html, body {
+
+	width: 210mm;
+
+	height: 297mm;
+
+	}

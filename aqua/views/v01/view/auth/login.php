@@ -13,7 +13,7 @@
         <div class="wrapper-page">
             <div class="login-box card-box">
                 <div class="text-center" style="margin-top: 25px;">
-                    <h1 class="m-b-20"><img src="<?=$img_path?>/logo2.png" /></h1>
+                    <h1 class="m-b-20"></h1>
                     <h4 class="font-bold">스마트공장 관리시스템</h4>
                 </div>
                 <div class="panel-body">                    

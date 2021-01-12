@@ -1,0 +1,178 @@
+/******************** 항목관리  *************************/
+ol, ul, li { list-style:none;padding:0; }
+.write_contents {width:100%;margin-top:0px;}
+.write_box_wrap {width:99%;margin:0 auto;padding-left:25px;margin-bottom:40px}
+.task_box {float:left;margin-left:10px;padding-top:20px;width:48%;height:600px;border:1px solid #e1e1e1;text-align:center;} 
+.build_field { width:100%;height:400px;margin:0px auto; overflow:hidden;overflow-y:scroll}
+.build_field .field_ul > li {width:98%;border:1px solid #e1e1e1;padding:10px 0px 10px 5px;text-align:left;margin:5px auto;}
+.build_option { width:100%;height:400px;margin:0px auto;overflow:hidden;overflow-y:scroll}
+.build_option li {width:98%;border:1px solid  #e1e1e1;padding:10px 0px 10px 0px;text-align:center;margin:5px auto;font-size:13px; }
+
+.buildOption_btnAdd {
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:-7px;
+	font-size:12px;
+	padding:7px;
+	cursor:pointer;
+	color:#333;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background-color:#eee;
+}
+.buildOption_btnAdd:active {
+	background-color:#03a9f4;
+	color:#fff;
+}
+
+.buildOption_btnEdit {
+	float:right;
+	margin-left:5px;
+	margin-top:-7px;
+	font-size:12px;
+	padding:7px;
+	cursor:pointer;
+	color:#333;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background-color:#eee;
+}
+.buildOption_btnEdit:active {
+	background-color:#66cc00;
+	color:#fff;
+}
+
+.buildOption_btnDel {
+	float:right;
+	margin-left:5px;
+	margin-top:-7px;
+	font-size:12px;
+	padding:7px;
+	cursor:pointer;
+	color:#333;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background-color:#eee;
+}
+.buildOption_btnDel:active {
+	background-color:#db4437;
+	color:#fff;
+}
+
+.buildField_btnDel {
+	float:right;
+	margin-right:5px;
+	margin-top:-8px;
+	font-size:12px;
+	padding:7px;
+	cursor:pointer;
+	color:#333;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background-color:#eee;
+}
+.buildField_btnDel:active {
+	background-color:#db4437;
+	color:#fff;
+}
+
+.buildField_btnCancel {
+	display : inline-block;
+	width:10%;
+	margin-right:5px;
+	margin-top:-8px;
+	font-size:12px;
+	padding:7px;
+	cursor:pointer;
+	color:#333;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	
+}
+.buildField_btnCancel:active {
+	background-color:#eee;
+	color:#fff;
+}
+
+.buildField_btnSave {
+	display : inline-block; 
+	width:70%;
+	margin-right:5px;
+	margin-top:15px;
+	font-size:12px;
+	padding:7px;
+	cursor:pointer;
+	color:#333;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background-color:#eee;
+}
+.buildField_btnSave:active {
+	background-color:#03a9f4;
+	color:#fff;
+}
+
+
+.buildField_btnShow {
+	float:right;
+	margin-right:5px;
+	margin-top:-8px;
+	font-size:12px;
+	padding:7px;
+	cursor:pointer;
+	color:#333;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background-color:#eee;
+}
+.buildField_btnShow:active {
+	background-color:#03a9f4;
+	color:#fff;
+}
+
+.buildFieldChildDisplay_btn {
+	float:left;
+	margin-left:5px;
+	margin-top:-8px;
+	font-size:12px;
+	padding:7px;
+	cursor:pointer;
+	color:#333;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background-color:#eee;
+}
+.buildFieldChildDisplay_btn:active {
+	background-color:#66cc00;
+	color:#fff;
+}
+
+
+.task_box_title {
+	height:45px;
+	margin-bottom:10px;
+	border-bottom:1px solid #e1e1e1;
+}
+.field_choice_title {
+	color:#cc6600;margin-bottom:15px;
+}
+.field_child_option_ul li {
+	width:98%;
+	margin:10px 0px 0px 0px;
+	padding:5px 0px 0px 0px;
+	border-top:1px solid #e1e1e1;
+	text-align:left;
+	
+}
+
+
+
+#field_status_text_A {height:20px;display:none}
+#field_status_text_B {height:20px;font-size:12px}
+.task_box_top_area {height:20px;font-size:12px}
+
+.write_input_area {width:100%;height:40px;text-align:left;padding:15px 5px 5px 5px;}
+.write_input {width:95%;height:30px;border:none;border-bottom:1px solid #03a9f4; outline:none}
+.write_btn_area {width:100%;height:35px}
+/******************** 항목관리  *************************/
